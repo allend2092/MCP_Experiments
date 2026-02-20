@@ -1,0 +1,5 @@
+[project]
+name = "mcp-experiments"
+version = "0.0.0"
+description = "MCP tool experiments for home lab automation"
+requires-python = ">=3.10"
