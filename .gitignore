@@ -11,3 +11,4 @@ config/ssh_config
 
 # OS
 .DS_Store
+.env.local
