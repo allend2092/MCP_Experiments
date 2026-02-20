@@ -1,0 +1,11 @@
+Host cisco-3560-poe
+    HostName 123.45.67.89   # CHANGE ME
+    User mcp_user           # CHANGE ME
+
+    # Legacy crypto required by older IOS (use only for lab/legacy devices)
+    KexAlgorithms +diffie-hellman-group1-sha1
+    HostKeyAlgorithms +ssh-rsa
+    Ciphers +aes128-cbc,aes192-cbc,aes256-cbc,3des-cbc
+
+    UserKnownHostsFile ./config/known_hosts
+    StrictHostKeyChecking accept-new
