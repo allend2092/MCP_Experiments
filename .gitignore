@@ -6,6 +6,7 @@ __pycache__/
 # Secrets (never commit)
 .env
 *.env
+config/known_hosts
 
 # OS
 .DS_Store
